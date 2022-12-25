@@ -44,7 +44,7 @@ variable "vpc_tags" {
 }
 
 variable "aws_region" {
-  type = string
-  default = "ap-southeast-2"
+  type        = string
+  default     = "us-west-2"
   description = "AWS Region"
 }
