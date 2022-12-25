@@ -42,3 +42,9 @@ variable "vpc_tags" {
     Environment = "dev"
   }
 }
+
+variable "aws_region" {
+  type = string
+  default = "ap-southeast-2"
+  description = "AWS Region"
+}
